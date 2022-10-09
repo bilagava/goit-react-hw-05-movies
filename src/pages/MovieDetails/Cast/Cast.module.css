@@ -21,10 +21,11 @@
   text-align: center;
   margin-right: 15px;
   margin-bottom: 15px;
-  box-shadow: 10px 10px 15px rgba(40, 49, 49, 0.624);
+  box-shadow: 10px 10px 10px rgba(66, 71, 71, 0.624);
 }
 
 .imgBox {
+  padding: 5px;
   height: 200px;
 }
 
