@@ -48,12 +48,12 @@ export default function MovieDetails() {
       </div>
       <ul>
         <li>
-          <Link to="cast" state={{ from: cameBack }}>
+          <Link to="cast" className={css.link} state={{ from: cameBack }}>
             Cast
           </Link>
         </li>
         <li>
-          <Link to="reviews" state={{ from: cameBack }}>
+          <Link to="reviews" className={css.link} state={{ from: cameBack }}>
             Reviews
           </Link>
         </li>
